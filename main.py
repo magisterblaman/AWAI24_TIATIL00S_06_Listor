@@ -1,9 +1,14 @@
-names = ["Hannes", "Hannes2", "Hanna", "Björne", "Markus"]
+gross_foods = [
+    "lakrits",
+    "skolmaten",
+    "blodpudding",
+    "pyttipanna"
+]
 
-for i in range(len(names)):
-    print(names[i])
-
-# print(names[0])
-# print(names[1])
-# print(names[2])
-# print(names[3])
+print(gross_foods)
+gross_foods.append("tacos")
+gross_foods.append("köttfärssås")
+gross_foods.append("pasta")
+gross_foods.append("chili con carne")
+gross_foods.append("FISK")
+print(gross_foods[6])
